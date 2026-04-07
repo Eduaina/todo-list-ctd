@@ -1,16 +1,14 @@
-# React + Vite
+# Todo-List (Built with React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todolist built using the javascript library React.
 
-Currently, two official plugins are available:
+##Installation instructions
+- Fork the repo by clicking on the fork button at the top left side of this page.
+- clone to your local Pc by running *"git clone [Https or ssh URL.git]"*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##How to run the development server
+- In your cloned project on your local PC, run *"npm install"*
+- To view this project on your browser:
+    1. Run *"cd todo"* to take you into the main todo React folder
+    2. Run *"npm run dev"*. This should show "http://localhost:5173/".
+    3. Navigate to "http://localhost:5173/" to view this project on your browser.
