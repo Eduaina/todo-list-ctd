@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
   const todoList = [
-    {id: 1, title: "Groceries Shopping"},
+    {id: 1, title: "Shopping"},
     {id: 2, title: "Gym"},
     {id: 3, title: "Work"},
 ]
