@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TextInput from "../shared/TextInput";
+import TextInputWithLabel from "../shared/TextInputWithLabel";
 import { isValidTodoTitle } from "../utils/todoValidation";
 
 function TodoForm({ onAddTodo }) {
@@ -16,7 +16,7 @@ function TodoForm({ onAddTodo }) {
 
   return (
     <form onSubmit={handleAddTodo}>
-      <TextInput
+      <TextInputWithLabel
         elementId="todoTitle"
         labelText="Todo"
         value={workingTodoTitle}
